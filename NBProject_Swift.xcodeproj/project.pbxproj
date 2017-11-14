@@ -14,6 +14,7 @@
 		690CD0331FBADCAB001EE3F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690CD0311FBADCAB001EE3F7 /* LaunchScreen.storyboard */; };
 		690CD03E1FBADCAB001EE3F7 /* NBProject_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690CD03D1FBADCAB001EE3F7 /* NBProject_SwiftTests.swift */; };
 		690CD0491FBADCAB001EE3F7 /* NBProject_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690CD0481FBADCAB001EE3F7 /* NBProject_SwiftUITests.swift */; };
+		690CD05F1FBADF36001EE3F7 /* NBTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690CD05E1FBADF36001EE3F7 /* NBTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		690CD0441FBADCAB001EE3F7 /* NBProject_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBProject_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		690CD0481FBADCAB001EE3F7 /* NBProject_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBProject_SwiftUITests.swift; sourceTree = "<group>"; };
 		690CD04A1FBADCAB001EE3F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		690CD05E1FBADF36001EE3F7 /* NBTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NBTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,11 @@
 		690CD0271FBADCAB001EE3F7 /* NBProject_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				690CD05A1FBADEDF001EE3F7 /* Config */,
+				690CD0591FBADEC2001EE3F7 /* Resource */,
+				690CD0581FBADEB4001EE3F7 /* Vendor */,
+				690CD0571FBADE9E001EE3F7 /* Operation */,
+				690CD0561FBADE78001EE3F7 /* Classes */,
 				690CD0281FBADCAB001EE3F7 /* AppDelegate.swift */,
 				690CD02A1FBADCAB001EE3F7 /* ViewController.swift */,
 				690CD02C1FBADCAB001EE3F7 /* Main.storyboard */,
@@ -123,6 +130,66 @@
 				690CD04A1FBADCAB001EE3F7 /* Info.plist */,
 			);
 			path = NBProject_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		690CD0561FBADE78001EE3F7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		690CD0571FBADE9E001EE3F7 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				690CD05B1FBADF0F001EE3F7 /* Categroy */,
+				690CD05C1FBADF0F001EE3F7 /* Net */,
+				690CD05D1FBADF0F001EE3F7 /* Util */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
+		690CD0581FBADEB4001EE3F7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		690CD0591FBADEC2001EE3F7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		690CD05A1FBADEDF001EE3F7 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		690CD05B1FBADF0F001EE3F7 /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categroy;
+			sourceTree = "<group>";
+		};
+		690CD05C1FBADF0F001EE3F7 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		690CD05D1FBADF0F001EE3F7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				690CD05E1FBADF36001EE3F7 /* NBTool.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				690CD02B1FBADCAB001EE3F7 /* ViewController.swift in Sources */,
+				690CD05F1FBADF36001EE3F7 /* NBTool.swift in Sources */,
 				690CD0291FBADCAB001EE3F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +581,7 @@
 				690CD04F1FBADCAB001EE3F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		690CD0501FBADCAB001EE3F7 /* Build configuration list for PBXNativeTarget "NBProject_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +590,7 @@
 				690CD0521FBADCAB001EE3F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		690CD0531FBADCAB001EE3F7 /* Build configuration list for PBXNativeTarget "NBProject_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +599,7 @@
 				690CD0551FBADCAB001EE3F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
